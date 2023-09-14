@@ -1,6 +1,4 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
+// next.config.js
+const withTM = require("next-transpile-modules")(["echarts", "zrender"]);
 
-module.exports = nextConfig
+module.exports = withTM({})
