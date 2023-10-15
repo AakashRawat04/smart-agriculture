@@ -26,15 +26,18 @@ The ESP32 is a powerful microcontroller that serves as the brains of this projec
 
 ![DHT-11](https://github.com/anish-patil/smart-agriculture/assets/101693650/7ddc9968-86d2-4c87-93ff-fb682560ff71)
 
-The DHT11 is a basic and inexpensive digital temperature and humidity sensor. It is widely used in various applications, especially in the field of electronics and microcontroller-based projects. Here are some key characteristics and information about the DHT11 sensor:
+The DHT11 sensor is used in this project to measure temperature and humidity. It provides a cost-effective way to monitor environmental conditions and is suitable for various applications, including weather stations, home automation, and more.
+Features:
 
-1. It provides temperature readings with a resolution of 1°C and humidity readings with a resolution of 1% RH (Relative Humidity).
+- Measures temperature and humidity.
+- Affordable and widely available.
+- Digital output for easy interfacing with microcontrollers.
+- Simple to use and integrate into projects.
 
-2. The sensor's temperature measurement range is from 0°C to 50°C (32°F to 122°F). The humidity measurement range is from 20% to 90% RH.
+**Usage:**
+ The DHT11 sensor is connected to ESP32 and provides data that can be displayed or processed in various ways. In this project, the DHT11 data is used for regulation of irrigation valves.
 
-3. It provides a temperature accuracy of ±2°C and a humidity accuracy of ±5% RH.
-
-4. The sensor communicates with microcontrollers or other digital devices using a digital signal. It utilizes a single-wire communication protocol, which makes it relatively simple to interface with microcontrollers like Arduino.
+For more information on the DHT11 sensor and its datasheet, refer to the [official documentation](https://www.mouser.com/datasheet/2/758/DHT11-Technical-Data-Sheet-Translated-Version-1143054.pdf).
 
 ## YL-69 and YL-38 - Moisture Detection  
 
